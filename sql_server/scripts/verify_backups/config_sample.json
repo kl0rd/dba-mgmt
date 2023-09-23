@@ -1,0 +1,31 @@
+{
+    "instances": [
+        {
+        "name": "MSSQLA",
+        "host": "MSSQLA",
+        "databases": ["db1", "db2"],  
+        "skip_databases": ["db1", "db2"],        
+        "auth_type": "sql",
+        "sql_auth":
+            {
+            "username": "username1",
+            "password": "password1"
+            },
+        "backup_path": "/backup"                            
+        },
+        {
+        "name": "MSSQLB",
+        "host": "MSSQLB",
+        "databases": ["db1", "db2"],
+        "skip_databases": ["db1", "db2"],
+        "auth_type": "sql",
+        "sql_auth":
+            {
+            "username": "username2",
+            "password": "password2"
+            },
+        "backup_path": "/backup"
+        }
+    ]
+}
+

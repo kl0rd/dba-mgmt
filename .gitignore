@@ -1,0 +1,5 @@
+create_subfolders.bat
+# Ignore common sensitive files
+config.json
+secrets.ini
+*.env
